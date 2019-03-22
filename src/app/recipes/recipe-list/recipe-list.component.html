@@ -11,11 +11,11 @@
       <div class='list-group-item' *ngFor='let recipe of recipes'>
         <div class="row">
           <div class="col-md-9">
-            <h6>{{recipe.name}}</h6>
-            <p>{{recipe.description}}</p>
+            <h4>{{recipe.name}}</h4>
+            <small>{{recipe.description}}</small>
           </div>
           <div class="col-md-3">
-            <img src="{{recipe.imgPath}}" class="img-fluid rounded-circle float-right" alt="{{recipe.name}}">
+            <img src="{{recipe.imgPath}}" class="img-fluid rounded-circle float-right border-success" alt="{{recipe.name}}">
           </div>
           </div>
         </div>
